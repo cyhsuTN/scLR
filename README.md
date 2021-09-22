@@ -7,5 +7,5 @@ scLR: a method to test dysregulated ligand-receptor interactions
 Version 0.9.2:
 Add parameters
 - normalization. Perform normalization within each cell type (normalization = "ByCT") or for all cell types together (normalization = "ByALL").
-- rhos. Estimate correlation coefficient for each lr pair (rhos = "est").
+- rhos. Estimate correlation coefficient for statistically significant lr pair (rhos = "est").
 - impute.miss.celltype. Impute NA columns for missing cell types of replicates. 
