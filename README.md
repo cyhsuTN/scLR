@@ -7,14 +7,14 @@ scLR: a method to test dysregulated ligand-receptor interactions
 Version 0.9.5: updated on 12/30/2021:\
 a. Add the nonparametric Wilcoxon rank sum test to evaluate LR pairs.\
 b. Add parameters\
-bntest. (default = FALSE) Whether or not to perform a bivariate noraml test to check bivariate normal assumption for LR pairs.\
-sig.bntest. (default = 0.01) Under what significance level, the LR pairs will be tested by a bivariate noraml test.
+_bntest. (default = FALSE) Whether or not to perform a bivariate noraml test to check bivariate normal assumption for LR pairs.\
+_sig.bntest. (default = 0.01) Under what significance level, the LR pairs will be tested by a bivariate noraml test.
 
 Version 0.9.4:\
 Correct an error when setting impute.miss.celltype = 0.
 
 Version 0.9.3:\
 Add parameters
-- normalization. Perform normalization within each cell type (normalization = "ByCT") or for all cell types together (normalization = "ByALL").
-- rhos. Estimate correlation coefficient for statistically significant lr pair (rhos = "est").
-- impute.miss.celltype. Impute NA columns for missing cell types of replicates. 
+_normalization. Perform normalization within each cell type (normalization = "ByCT") or for all cell types together (normalization = "ByALL").
+_rhos. Estimate correlation coefficient for statistically significant lr pair (rhos = "est").
+_impute.miss.celltype. Impute NA columns for missing cell types of replicates. 
