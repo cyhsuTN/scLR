@@ -4,8 +4,8 @@ scLR: a method to test dysregulated ligand-receptor interactions
 1. Download and install scLR_0.9.5.tar.gz
 2. See Demo_scLR_0903.pdf for usage
 
-Version 0.9.5: updated on 12/30/2021:
-a. Add the nonparametric Wilcoxon rank sum test to evaluate LR pairs.
+Version 0.9.5: updated on 12/30/2021:\
+a. Add the nonparametric Wilcoxon rank sum test to evaluate LR pairs.\
 b. Add parameters
 - bntest. (default = FALSE) Whether or not to perform a bivariate noraml test to check bivariate normal assumption for LR pairs.
 - sig.bntest. (default = 0.01) Under what significance level, the LR pairs will be tested by a bivariate noraml test.
