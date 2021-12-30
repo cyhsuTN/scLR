@@ -11,10 +11,10 @@ _ bntest. (default = FALSE) Whether or not to perform a bivariate noraml test to
 _ sig.bntest. (default = 0.01) Under what significance level, the LR pairs will be tested by a bivariate noraml test.
 
 Version 0.9.4:\
-Correct an error when setting impute.miss.celltype = 0.
+a. Correct an error when setting impute.miss.celltype = 0.
 
 Version 0.9.3:\
-Add parameters
+a. Add parameters\
 _ normalization. Perform normalization within each cell type (normalization = "ByCT") or for all cell types together (normalization = "ByALL").
 _ rhos. Estimate correlation coefficient for statistically significant lr pair (rhos = "est").
 _ impute.miss.celltype. Impute NA columns for missing cell types of replicates. 
