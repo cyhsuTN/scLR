@@ -15,6 +15,6 @@ a. Correct an error when setting impute.miss.celltype = 0.
 
 Version 0.9.3:\
 a. Add parameters\
-_ normalization. Perform normalization within each cell type (normalization = "ByCT") or for all cell types together (normalization = "ByALL").
-_ rhos. Estimate correlation coefficient for statistically significant lr pair (rhos = "est").
+_ normalization. Perform normalization within each cell type (normalization = "ByCT") or for all cell types together (normalization = "ByALL").\
+_ rhos. Estimate correlation coefficient for statistically significant lr pair (rhos = "est").\
 _ impute.miss.celltype. Impute NA columns for missing cell types of replicates. 
