@@ -1,6 +1,6 @@
 scLR: a method to test dysregulated ligand-receptor interactions
 ================
-C.-Y. Hsu
+Chih-Yuan Hsu\
 April 18, 2022
 
 ## Version
