@@ -1,8 +1,11 @@
 # scLR
 scLR: a method to test dysregulated ligand-receptor interactions
 
-1. Download and install scLR_0.9.5.tar.gz
+1. Download and install scLR_0.9.6.tar.gz
 2. See Demo_scLR_0903.pdf for usage
+
+- Version 0.9.6: updated on 04/18/2022:\
+a. Correct a bug when each condition has only one sample in some LR comparison.
 
 - Version 0.9.5: updated on 12/30/2021:\
 a. Add the nonparametric Wilcoxon rank sum test to evaluate LR pairs.\
