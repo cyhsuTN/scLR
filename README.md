@@ -184,3 +184,6 @@ head(output$Rs[,1:11], 10)
     ## 8        0.7033     6.2369  0.525957     0.9310549
     ## 9        0.3007     7.4385  0.785657     0.9310549
     ## 10       0.2341     7.6670  0.830869     0.9310549
+
+## References
+Qi Liu, Chih-Yuan Hsu*, Jia Li, Yu Shyr (2022). Dysregulated Ligand-receptor interactions from single cell transcriptomics. Bioinformatics, doi:10.1093/bioinformatics/btac294. *Co-first authorship.
