@@ -27,10 +27,18 @@ April 18, 2022
     \_ rhos. Estimate correlation coefficient for statistically significant lr pair (rhos = "est").
     \_ impute.miss.celltype. Impute NA columns for missing cell types of replicates.
 
+
+## Installation
+
+Download scLR_0.9.6.tar.gz and locally install it, or execute the
+following code:
+
+``` r
+library(devtools)
+install_github("cyhsuTN/scLR")
+```
+
 ## Usage of scLR
-
-1.  Download and install scLR\_0.9.6.tar.gz
-
 
 A simulated data to compare the products of the expressions of LR pairs between two conditions: TX1 and TX2. 3 samples for each condition. For each sample, there are 1000 genes and 100 cells (5 cell types, 20 cells each). 10 ligand-receptor gene pairs across 5 cell types are compared between TX1 and TX2.
 
