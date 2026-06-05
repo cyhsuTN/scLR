@@ -1,0 +1,15 @@
+Package: scLR
+Type: Package
+Title: Test Dysregulated Ligand-receptor Interactions at Small Sample Sizes
+Version: 0.9.6
+Author: Chih-Yuan Hsu
+Maintainer: Chih-Yuan Hsu <chih-yuan.hsu@vumc.org>
+Description: A function to test dysregulated ligand-receptor interactions from single cell transcriptomics between two conditions.
+License: GPL-2 | GPL-3
+biocViews:
+Imports: Matrix, limma, stats, parallel, dplyr, DESeq2, energy
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 3.6)
